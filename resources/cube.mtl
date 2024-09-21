@@ -1,0 +1,12 @@
+# Blender 3.5.1 MTL File: 'None'
+# www.blender.org
+
+newmtl m_ba2f07a8-f161-3bfb-211b-508b5d1d0f44.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd cube.png

@@ -1,0 +1,53 @@
+{
+    color: #FFFFFF
+    font: gui/theme/cp437.txt
+    size: 20
+    [label] {
+        [menu_menu_title] {
+            size: 50
+        }
+        [secret] {
+            font: gui/theme/font2.txt
+        }
+    }
+    [button.forground] {
+        color.hovered: #000000
+    }
+    [button.background] {
+        image: gui/theme/square_filled.png
+        color: #FFFFFF
+        sound: gui/theme/buttonDown.wav
+        sound.hovered: gui/theme/buttonUp.wav
+    }
+    [panel] {
+        image: gui/theme/panel.png
+		color: #FFFFFF
+		size: 20
+    }
+    [overlay] {
+        color: #000000
+    }
+    [navigator] {
+        image: gui/theme/square.png#pixel
+		color: #FF55FF
+		size: 10
+    }
+    [progressbar] {
+    }
+    [progressbar.background] {
+    }
+    [slider.forground] {
+        image: gui/theme/pixel.png
+    }
+    [slider.background] {
+        image: gui/theme/square_filled.png#pixel
+		color: #FFFFFFA0
+		size: 8
+    }
+    [image] {
+    }
+    [textarea] {
+    }
+    [textfield] {
+    }
+}

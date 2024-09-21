@@ -1,0 +1,38 @@
+[MENU] {
+    stretch: true
+    {
+        alignment: top
+        type: label
+        caption: PAUSED
+        text.size: 70
+        margin: 50
+    }
+    {
+        alignment: bottomright
+        layout: vertical
+        margin: 20
+        [RESUME] {
+            @ref: BUTTON
+            caption: Resume
+            {
+                type: keynavigator
+                margin: -5
+                stretch: true
+                select: JUMP
+            }
+        }
+        [RESET] {
+            @ref: BUTTON
+            caption: Reset
+        }
+        [QUIT] {
+            @ref: BUTTON
+            caption: Quit
+        }
+    }
+}
+[@BUTTON] {
+    type: button
+    size: 100, 30
+    margin: 5
+}

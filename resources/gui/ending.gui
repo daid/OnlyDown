@@ -1,0 +1,31 @@
+[ENDING] {
+    type: fadeoverlay
+    stretch: true
+    delay: 5
+    {
+        alignment: bottom
+        size: 320, 120
+        fill_width: true
+
+        {
+            type: fadelabel
+            alignment: top
+            caption: This was...
+            margin: 30
+        }
+        {
+            type: fadelabel
+            alignment: center
+            caption: ONLY DOWN
+            style: menu_menu_title
+            delay: 5.0
+        }
+        {
+            type: fadelabel
+            alignment: bottom
+            caption: a game by Daid
+            margin: 30
+            delay: 8
+        }
+    }
+}

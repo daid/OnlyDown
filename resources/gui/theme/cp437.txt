@@ -1,0 +1,7 @@
+texture: gui/theme/cp437.png
+texture_size: 288, 128
+glyph_size: 9, 16
+line: 
+line: _!"#$%&'()*+,-./0123456789:;<=>?
+line: @ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+line: `abcdefghijklmnopqrstuvwxyz{|}~

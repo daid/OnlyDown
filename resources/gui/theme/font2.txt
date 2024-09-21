@@ -1,0 +1,6 @@
+texture: gui/theme/font2.png
+texture_size: 195, 39
+glyph_size: 13, 13
+line: NOPQRSTUVWXYZ-
+line: ABCDEFGHIJKLM
+line: 0123456789abcde

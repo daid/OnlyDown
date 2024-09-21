@@ -1,0 +1,50 @@
+{
+    texture: player.png
+    texture_size: 260, 13
+    
+    loop: true
+    size: 1, 1
+    frame_size: 13, 13
+    delay: 0.1
+    offset: 0, 1
+    
+    [Idle] {
+        position: 0, 0
+        frame_count: 1
+    }
+    [Walk] {
+        position: 13, 0
+        frame_count: 2
+    }
+    [Jump] {
+        position: 39, 0
+        frame_count: 1
+    }
+    [Hang] {
+        position: 52, 0
+        frame_count: 1
+    }
+    [ClimbUp] {
+        position: 52, 0
+        frame_count: 6
+        delay: 0.030
+        loop: false
+    }
+    [Dead] {
+        position: 130, 0
+        frame_count: 1
+    }
+    [Teleport] {
+        position: 143, 0
+        frame_count: 6
+        delay: 0.05
+    }
+    [Swim] {
+        position: 221, 0
+        frame_count: 2
+    }
+    [Swing] {
+        position: 247, 0
+        frame_count: 1
+    }
+}

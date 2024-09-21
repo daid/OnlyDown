@@ -1,0 +1,23 @@
+[TITLE] {
+    alignment: bottom
+    size: 320, 120
+    fill_width: true
+    {
+        type: fadelabel
+        alignment: center
+        caption: ONLY DOWN
+        style: menu_menu_title
+    }
+    {
+        margin: 5, 0
+        type: fadelabel
+        alignment: bottomleft
+        text.alignment: center
+        text.size: 15
+        caption: A Tale of Wind\
+           Composed by Jonathan Shaw\
+           (www.jshaw.co.uk)
+        delay: 6
+        scale_to_text: true
+    }
+}

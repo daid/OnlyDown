@@ -1,0 +1,17 @@
+[MSGBOX] {
+    alignment: top
+    size: 320, 120
+    {
+        type: panel
+        alignment: center
+        padding: 20, 20, 0, 5
+        margin: 5, 5
+        [MSG] {
+            type: label
+            caption: Test caption on label\
+                Test1234
+            scale_to_text: true
+            text_alignment: topleft
+        }
+    }
+}

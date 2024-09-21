@@ -1,0 +1,18 @@
+{
+    texture: gui/theme/pixel.png
+    origin: local
+    acceleration: 0, -20, 0
+    
+    [SPAWN] {
+        initial: 100
+        velocity: -5~5, 5~10, 0
+        color: #FF55FF
+        size: 0.1
+        lifetime: 1.0
+        position: -0.3~0.3, -0.4, 0
+    }
+    [SIZE] {
+        0: 0.1
+        1: 0.0
+    }
+}
