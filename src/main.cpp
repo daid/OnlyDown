@@ -34,6 +34,7 @@
 #include <sp2/stringutil/convert.h>
 #include <sp2/io/filesystem.h>
 #include <nlohmann/json.hpp>
+#include <optional>
 
 
 class SaveProgressInterface {
